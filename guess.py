@@ -17,9 +17,9 @@ while guessTaken < 10:
 	guessTaken = guessTaken + 1
 
 	if guess > number:
-		print "Your number is too high"
+		print "Your number is high"
 	elif guess < number:
-		print "Your number is too low"
+		print "Your number is low"
 	if guess == number:
 		break
 
